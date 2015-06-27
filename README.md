@@ -11,13 +11,13 @@ if oplog tailing is in use).
 
 ## Install
 
-Run this to add csats:throttle to your Meteor application:
+Add this package to your Meteor application with
 
     meteor add csats:throttle
 
 ## Test
 
-Run this command to test the csats:mturk package:
+Run tests with
 
     npm test
 
