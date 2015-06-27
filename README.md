@@ -26,7 +26,7 @@ Run tests with
 The API is as follows. First, define your "throttle config": a small JavaScript
 object with
 
-1. An "operation" string. This is used as a key to decide what is throttled.
+1. An "operation" string: describes what is being throttled.
 2. A "max" number: how many of this exact operation can occur before further
    operations are throttled.
 3. A "period" momentjs.Duration instance: how far back to look when summing
