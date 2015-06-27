@@ -1,0 +1,31 @@
+{
+  "name": "meteor-throttle",
+  "version": "0.0.1",
+  "description": "Simple rate-limiter for Meteor applications.",
+  "main": "throttle-tests.js",
+  "scripts": {
+    "test": "jshint --exclude-path .jshintignore --verbose . && spacejam test-packages ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csats/meteor-throttle.git"
+  },
+  "author": {
+    "name": "C-SATS, Inc.",
+    "url": "http://www.csats.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csats/meteor-throttle/issues"
+  },
+  "homepage": "https://github.com/csats/meteor-throttle",
+  "dependencies": {
+    "jshint": "^2.7.0",
+    "spacejam": "^1.2.0"
+  },
+  "keywords": [
+    "rate",
+    "limit",
+    "meteor"
+  ]
+}

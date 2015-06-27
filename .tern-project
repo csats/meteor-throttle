@@ -1,0 +1,3 @@
+{
+  "loadEagerly": [ "*.js", "*/*.js" ]
+}

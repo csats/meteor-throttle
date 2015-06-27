@@ -1,0 +1,10 @@
+language: node_js
+node_js: "0.10"
+install:
+  - "curl https://install.meteor.com | /bin/sh"
+  - "npm install"
+before_script:
+  - "export PATH=$HOME/.meteor:$PATH"
+notifications:
+  slack:
+    secure: iiDjdtzLxQQGTHpeh5iDbMsW2ybwzWtxhVIiZbRXvAqLJwckMK+PfUY2N9M9bEztbkX8h01jPsKZDfwAY58G09PwjgeSriaOinClfpMt+wY0crmmLgr5RtVZVDiDTZzycC0wbXmQ1Tn0BEocGq6GtlKgMK0USCOgRy1eDsRAQbo=
