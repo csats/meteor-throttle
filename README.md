@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/csats/meteor-throttle.svg?branch=master)](https://travis-ci.org/csats/meteor-throttle)
 
-Simple, generic, durable, server-side-only rate-limiter for Meteor
+Simple, generic, durable, **server-side only** rate-limiter for Meteor
 applications. Durable because rate counters are stored in MongoDB. This
 durability generally makes it unsuitable for throttling high-traffic services
 (especially if oplog tailing is in use).
